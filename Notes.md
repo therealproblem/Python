@@ -129,6 +129,8 @@ Two scenarios that you need to do a loop
 
 **Always remember, a loop always ask for when it should end**
 
+Take note of variables that is declared (created) inside the loop, only when you are inside the loop, you get to see the variable, when you are outside the loop, you can no longer see the variable.
+
 ## Examples
 i increase from 0 to 9, not including 10
 ```python
