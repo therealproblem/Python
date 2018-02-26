@@ -168,7 +168,7 @@ while (i < 10):
     i = i + 3
 ```
 
-getting every letter in a word
+## Getting every letter in a word
 ```python
 word = "apple"
 for i in range(len(word)):
