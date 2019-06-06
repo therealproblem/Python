@@ -324,7 +324,7 @@ name = name.replace('a', 'e')
 print (name) # Johnethen
 ```
 
-# count() Method
+## count() Method
 this function take one parameter. the function will then count the number of times the parameter appear in the string.
 ```python
 name = "Johnathan"
