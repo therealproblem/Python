@@ -25,11 +25,6 @@ to ask for numbers (float or integer) use:
 number = input("Enter number: ")
 ```
 
-to ask for string use:
-```python
-name = raw_input("Enter name: ")
-```
-
 **if you are not sure what type of data you are dealing with, use the data type conversion to convert all values to the right type before continuing with the code. Example:**
 ```python
 number = int(input("Enter number: "))
