@@ -264,13 +264,13 @@ def len(string):
     return count
 ``` 
 # String Operations
-## len() Function
+## len() Method
 this is a function used to check how many item there are in a list. And always remember that a string is also a list of letters, therefore `len(string)` will return (give you) the amount of letters in a string.
 ```python
 names = ["Peter", "Jane", "Tom"]
 print ("Number of names: " + str(len(names)))
 ```
-## split() Function
+## split() Method
 this is used to seperate string by a delimiter (will be explained in the example later) and return to you a list of strings.
 ```python
 string = "hello, world"
@@ -279,7 +279,7 @@ print (str(string.split(","))) # ["hello", "world"]
 ```
 in the second `print()`, `string.split(",")` has a comma in the `()` and that comma is the delimiter. Delimiter is just the string that the computer will "cut" at and give you the parts of the string in the form of a list. If `split()` without providing any delimiter as it's parameter, the delimiter is empty space by default.
 
-## isalpha() function
+## isalpha() Method
 this function checks if the string is all alphabet and return `True` or `False`.
 ```python
 name = "John"
@@ -288,7 +288,7 @@ print (name.isalpha()) # True
 print (name.isalpha()) # False
 ```
 
-## startswith() endswith() function
+## startswith() endswith() Method
 this function will check if the string starts with or the string ends with the parameter provided.
 `name.startswith("H")` will check if the `name` string starts with the letter `"H"`. The parameter is **case sensitive**.
 ```python
@@ -299,7 +299,7 @@ print (name.endswith("n")) # True
 print (name.endswith("N")) # False
 ```
 
-## isdigit() function
+## isdigit() Method
 this function checks if the string contains only digits.
 ```python
 number = "123"
@@ -308,7 +308,7 @@ print (number.isdigit()) # True
 print (string.isdigit()) # False
 ```
 
-## lower() upper() function
+## lower() upper() Method
 converts all alphabet in the string to upper or lower case.
 ```python
 name = "John"
@@ -321,7 +321,7 @@ take note that the reason why the last `print()` still print out `"John"` instea
 name = name.upper()
 ```
 
-## replace() function
+## replace() Method
 this function takes 2 parameters. the first one is the old text and the second one is the new text. it will replace all the old text in the string with the new text.
 ```python
 name = "Johnathan"
@@ -329,7 +329,7 @@ name = name.replace('a', 'e')
 print (name) # Johnethen
 ```
 
-# count() function
+# count() Method
 this function take one parameter. the function will then count the number of times the parameter appear in the string.
 ```python
 name = "Johnathan"
@@ -345,7 +345,7 @@ names = ["Peter", "Jane", "Tom"]
 print ("Number of names: " + str(len(names)))
 ```
 
-## append() function
+## append() Method
 this is a function used to add item to the **back** of a list.
 ```python
 names = ["Peter", "Jane", "Tom"]
@@ -353,7 +353,7 @@ names.append("John")
 print(names) #["Peter", "Jane", "Tom", "John"]
 ```
 
-## insert() function
+## insert() Method
 insert function takes 2 parameters, where the first parameter is position (technically called index) and the second parameter is value.
 ```python
 names.insert(2, "John")
@@ -367,7 +367,7 @@ print(names[2]) # John
 ```
 in the above example `"Tom"` is pushed back from position 2 to position 3 as now `"John"` is at position 2.
 
-## pop() function
+## pop() Method
 pop function removes the last value if no parameter is provided and return the last value. `pop(2)` will remove the value at position `2` and return the value at position `2`.
 ```python
 random_list = [123, 'xyz', 'zara', 'abc'];
@@ -377,7 +377,7 @@ print ("List B : " + str(random_list.pop(0))) # zara
 print ("random_list : " + str(random_list)) # ['xyz', 'zara']
 ```
 
-## remove() function
+## remove() Method
 remove function removes the first item that has the same value as the parameter provided.
 `names.remove("John")` will remove the first `"John"` that is in the list called `names`
 ```python
