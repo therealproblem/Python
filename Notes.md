@@ -15,7 +15,7 @@ float()
 ```
 
 converts whatever that is inside () to a string
-```python(
+```python
 str()
 ```
 
