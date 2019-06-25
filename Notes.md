@@ -270,7 +270,7 @@ this is used to seperate string by a delimiter (will be explained in the example
 ```python
 string = "hello, world"
 print (str(string.split())) # ["hello,", "world"]
-print (str(string.split(","))) # ["hello", "world"]
+print (str(string.split(","))) # ["hello", " world"]
 ```
 in the second `print()`, `string.split(",")` has a comma in the `()` and that comma is the delimiter. Delimiter is just the string that the computer will "cut" at and give you the parts of the string in the form of a list. If `split()` without providing any delimiter as it's parameter, the delimiter is empty space by default.
 
